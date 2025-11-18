@@ -1,0 +1,1 @@
+// Write a function that searches for an element in an array and return the index, if the element is not present then return just -1. ???
