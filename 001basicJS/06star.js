@@ -147,3 +147,25 @@ for(let i=0; i<6; i++){
     console.log(str)
 }
 
+
+
+// Q.8 Print a pattern like this using loops
+// 1
+// 01
+// 010
+// 1010
+// 10101
+
+console.log(9)
+for(let i=0; i<5; i++){
+    let str = "";
+    for(let j=0; j<i+1; j++){
+        if((i+j)%2 == 0){
+            str = str + "1"
+        } else{
+            str = str + "0"
+        }
+    }
+    console.log(str)
+}
+
